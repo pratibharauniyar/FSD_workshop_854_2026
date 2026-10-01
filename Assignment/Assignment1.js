@@ -57,7 +57,7 @@ app.get("/products/:id", (req, res) => {
 
 
 // 3. POST /products
-// Add a new product
+
 app.post("/products", (req, res) => {
     const { name, category, price, quantity } = req.body;
 
