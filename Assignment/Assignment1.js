@@ -114,7 +114,7 @@ app.put("/products/:id", (req, res) => {
 
 
 // 5. DELETE /products/:id
-// Delete a product
+// Delete product
 app.delete("/products/:id", (req, res) => {
     const id = parseInt(req.params.id);
 
